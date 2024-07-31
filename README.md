@@ -13,7 +13,7 @@ The codebase consists of 3 scripts -
 This script web scrapes the abused addresses from Bitcoin Abuse and Wallet Explorer. The input to the script is the number of pages you want to scrape from Bitcoin Abuse and Wallet Explorer. And the output contains a list of abused addresses which are stored in a database in elasticsearch
 
 ### parser.py 
-This script takes in all the btc .dat files and parsers them to get transaction data of the blocks. This script then uploads the parsed data into the elasticsearch database.
+This script takes in all the btc.dat files and parsers them to get transaction data of the blocks. This script then uploads the parsed data into the elasticsearch database.
 
 ### MVP.py
 This is the MVP code for tracing the addresses. We now have 3 files in elasticsearch - 
